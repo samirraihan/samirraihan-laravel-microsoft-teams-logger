@@ -1,0 +1,24 @@
+{
+    "name": "sra/laravel-microsoft-teams-logger",
+    "description": "Laravel logger that sends logs to Microsoft Teams via webhook.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MicrosoftTeamsLogger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MicrosoftTeamsLogger\\TeamsLoggerServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "monolog/monolog": "^3.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
