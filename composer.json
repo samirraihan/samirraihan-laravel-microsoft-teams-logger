@@ -1,5 +1,5 @@
 {
-    "name": "sra/laravel-microsoft-teams-logger",
+    "name": "samirraihan/laravel-microsoft-teams-logger",
     "description": "Laravel logger that sends logs to Microsoft Teams via webhook.",
     "type": "library",
     "license": "MIT",
